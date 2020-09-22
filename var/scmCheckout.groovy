@@ -4,7 +4,7 @@ def call (Map stageParams) {
 	branches: [[name: stageParams.branch]]
 	doGenerateSubModuleConfigurations: false
 	userRemoteConfigs: [[
-		url: stageParams.url
+		url: stageParams.url,
 		credentialsId: stageParams.credentials
 	]]
 }
