@@ -7,8 +7,8 @@ def call(Map stgParam) {
     extensions: [],
     submoduleCfg: [],
     userRemoteConfigs: [
-      [[ credentialsId: stgParam.credentials ]],
-      [[ url: 'https://github.com/ramarao05/poc-avx.git' ]]
+      credentialsId: stgParam.credentials,
+      url: 'https://github.com/ramarao05/poc-avx.git'
     ]
   ])
 }
