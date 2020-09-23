@@ -6,9 +6,9 @@ def call(Map stgParam) {
     doGenerateSubmoduleConfigurations: false,
     extensions: [],
     submoduleCfg: [],
-    userRemoteConfigs: [
+    userRemoteConfigs: [[
       credentialsId: stgParam.credentials,
       url: 'https://github.com/ramarao05/poc-avx.git'
-    ]
+    ]]
   ])
 }
