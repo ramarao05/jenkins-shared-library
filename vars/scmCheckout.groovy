@@ -11,6 +11,6 @@ def call(Map stgParam) {
       url: 'https://github.com/ramarao05/poc-avx.git'
     ]]
   ])
-  runScript(ltmenable\ltm*.groovy)
-  runScript(ltmdisable\ltm*.groovy)
+  runScript(ltmenable/ltm*.groovy)
+  runScript(ltmdisable/ltm*.groovy)
 }
